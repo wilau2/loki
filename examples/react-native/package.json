@@ -9,19 +9,17 @@
     "update-loki": "LOKI_FILE=`cd ../.. && echo \\`pwd\\`/\\`npm pack\\`` && npm install $LOKI_FILE --no-save && rm $LOKI_FILE"
   },
   "dependencies": {
-    "prop-types": "^15.6.0",
-    "react": "16.0.0-beta.5",
-    "react-native": "0.49.5",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
     "react-native-devsettings-android": "^0.1.5"
   },
   "devDependencies": {
-    "@storybook/react-native": "^3.2.13",
-    "babel-jest": "21.2.0",
+    "@storybook/react-native": "^3.4.7",
+    "babel-jest": "23.0.1",
     "babel-preset-react-native": "4.0.0",
-    "jest": "21.2.1",
+    "jest": "23.1.0",
     "loki": "*",
-    "react-dom": "16.0.0-beta.5",
-    "react-test-renderer": "16.0.0-beta.5"
+    "react-test-renderer": "16.3.1"
   },
   "jest": {
     "preset": "react-native"
