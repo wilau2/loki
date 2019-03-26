@@ -31,7 +31,7 @@
   "loki": {
     "chromeSelector": ".wrapper > *, #root > *",
     "chromeDockerImage": "yukinying/chrome-headless-browser:74.0.3729.28",
-    "diffingEngine": "looks-same",
+    "diffingEngine": "gm",
     "configurations": {
       "chrome.laptop": {
         "target": "chrome.docker",
