@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Motion, spring } from 'react-motion';
 import './AnimatedComponent.css';
 
+export default {
+  title: 'Animation',
+};
+
 const withAlternatingState = (WrappedComponent, interval = 1000) =>
   class AlternatingStateComponent extends Component {
     constructor(props) {
@@ -25,7 +29,7 @@ const withAlternatingState = (WrappedComponent, interval = 1000) =>
     render = () => <WrappedComponent on={this.state.on} />;
   };
 
-export const CSSTransition = withAlternatingState(({ on }) => (
+const CSSTransition = withAlternatingState(({ on }) => (
   <div
     className={`AnimatedComponent CSSTransition ${
       on ? 'CSSTransition-on' : ''
@@ -33,7 +37,7 @@ export const CSSTransition = withAlternatingState(({ on }) => (
   />
 ));
 
-export const CSSTransitionWillChange = withAlternatingState(({ on }) => (
+const CSSTransitionWillChange = withAlternatingState(({ on }) => (
   <div
     className={`AnimatedComponent CSSTransition CSSTransitionWillChange ${
       on ? 'CSSTransition-on' : ''
@@ -41,15 +45,7 @@ export const CSSTransitionWillChange = withAlternatingState(({ on }) => (
   />
 ));
 
-export const CSSAnimationPseudoElement = () => (
-  <div className="AnimatedComponent AnimatedPseudoElement" />
-);
-
-export const CSSAnimation = () => (
-  <div className="AnimatedComponent CSSAnimation" />
-);
-
-export const ReactMotion = withAlternatingState(({ on }) => (
+const ReactMotion = withAlternatingState(({ on }) => (
   <Motion defaultStyle={{ rotate: 45 }} style={{ rotate: spring(on ? 0 : 45) }}>
     {value => (
       <div
@@ -59,3 +55,32 @@ export const ReactMotion = withAlternatingState(({ on }) => (
     )}
   </Motion>
 ));
+
+export const CSSTransitionStory = () => <CSSTransition />;
+CSSTransitionStory.story = {
+  name: 'with CSS transition',
+};
+
+export const CSSTransitionWillChangeStory = () => <CSSTransitionWillChange />;
+CSSTransitionWillChangeStory.story = {
+  name: 'with CSS transition with will-change property',
+};
+
+export const CSSAnimation = () => (
+  <div className="AnimatedComponent CSSAnimation" />
+);
+CSSAnimation.story = {
+  name: 'with CSS animation',
+};
+
+export const CSSAnimationPseudoElement = () => (
+  <div className="AnimatedComponent AnimatedPseudoElement" />
+);
+CSSAnimationPseudoElement.story = {
+  name: 'with CSS animation on pseudo element',
+};
+
+export const ReactMotionStory = () => <ReactMotion />;
+ReactMotionStory.story = {
+  name: 'with react-motion',
+};
