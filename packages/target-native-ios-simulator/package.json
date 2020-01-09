@@ -1,6 +1,6 @@
 {
   "name": "@lokiwilaufork/target-native-ios-simulator",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.2-alpha.0",
   "description": "Loki iOS simulator target",
   "keywords": [
     "loki"
@@ -20,8 +20,8 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@lokiwilaufork/core": "^1.0.1-alpha.0",
-    "@lokiwilaufork/target-native-core": "^1.0.1-alpha.0",
+    "@lokiwilaufork/core": "^1.0.2-alpha.0",
+    "@lokiwilaufork/target-native-core": "^1.0.2-alpha.0",
     "fs-extra": "^8.1.0",
     "osnap": "^1.1.0"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@lokiwilaufork/runner",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.2-alpha.0",
   "description": "Loki test runner",
   "bin": {
     "loki": "bin/loki"
@@ -26,13 +26,13 @@
     "access": "public"
   },
   "dependencies": {
-    "@lokiwilaufork/core": "^1.0.1-alpha.0",
-    "@lokiwilaufork/diff-graphics-magick": "^1.0.1-alpha.0",
-    "@lokiwilaufork/diff-looks-same": "^1.0.1-alpha.0",
-    "@lokiwilaufork/target-chrome-app": "^1.0.1-alpha.0",
-    "@lokiwilaufork/target-chrome-docker": "^1.0.1-alpha.0",
-    "@lokiwilaufork/target-native-android-emulator": "^1.0.1-alpha.0",
-    "@lokiwilaufork/target-native-ios-simulator": "^1.0.1-alpha.0",
+    "@lokiwilaufork/core": "^1.0.2-alpha.0",
+    "@lokiwilaufork/diff-graphics-magick": "^1.0.2-alpha.0",
+    "@lokiwilaufork/diff-looks-same": "^1.0.2-alpha.0",
+    "@lokiwilaufork/target-chrome-app": "^1.0.2-alpha.0",
+    "@lokiwilaufork/target-chrome-docker": "^1.0.2-alpha.0",
+    "@lokiwilaufork/target-native-android-emulator": "^1.0.2-alpha.0",
+    "@lokiwilaufork/target-native-ios-simulator": "^1.0.2-alpha.0",
     "async": "^3.0.1",
     "chalk": "^3.0.0",
     "ci-info": "^2.0.0",
