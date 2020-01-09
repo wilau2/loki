@@ -31,8 +31,8 @@
   "workspaces": {
     "packages": [
       "packages/*",
-      "website",
-      "examples/react"
+      // "website",
+      // "examples/react"
     ]
   },
   "devDependencies": {
