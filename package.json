@@ -30,9 +30,7 @@
   "license": "MIT",
   "workspaces": {
     "packages": [
-      "packages/*",
-      // "website",
-      // "examples/react"
+      "packages/*"
     ]
   },
   "devDependencies": {
