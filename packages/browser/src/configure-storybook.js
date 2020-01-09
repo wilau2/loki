@@ -4,7 +4,7 @@ const {
   registerPendingPromise,
   resetPendingPromises,
   awaitReady,
-} = require('@loki/integration-core');
+} = require('@lokiwilaufork/integration-core');
 
 function createConfigurator(storybook) {
   return function configureStorybook() {

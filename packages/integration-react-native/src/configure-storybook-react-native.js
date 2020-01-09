@@ -8,7 +8,7 @@ const {
   decorateStorybook,
   awaitReady,
   resetPendingPromises,
-} = require('@loki/integration-core');
+} = require('@lokiwilaufork/integration-core');
 
 const { DevSettings } = ReactNative.NativeModules;
 

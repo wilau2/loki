@@ -1,4 +1,4 @@
-const { dependencyAvailable } = require('@loki/core');
+const { dependencyAvailable } = require('@lokiwilaufork/core');
 
 const escapeShell = str => `"${str.replace(/(["\t\n\r$`\\])/g, '\\$1')}"`;
 

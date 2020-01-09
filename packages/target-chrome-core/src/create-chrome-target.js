@@ -6,7 +6,7 @@ const {
   getStories,
   awaitLokiReady,
   addLokiSessionMarker,
-} = require('@loki/browser');
+} = require('@lokiwilaufork/browser');
 const {
   TimeoutError,
   FetchingURLsError,
@@ -14,7 +14,7 @@ const {
   withTimeout,
   withRetries,
   unwrapError,
-} = require('@loki/core');
+} = require('@lokiwilaufork/core');
 const presets = require('./presets.json');
 
 const LOADING_STORIES_TIMEOUT = 60000;

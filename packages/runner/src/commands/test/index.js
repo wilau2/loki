@@ -4,7 +4,7 @@ const minimist = require('minimist');
 const {
   ReferenceImageError,
   ensureDependencyAvailable,
-} = require('@loki/core');
+} = require('@lokiwilaufork/core');
 const { warn, error, info } = require('../../console');
 const getConfig = require('../../config');
 const parseOptions = require('./parse-options');

@@ -1,5 +1,5 @@
 {
-  "name": "@loki/target-native-core",
+  "name": "@lokiwilaufork/target-native-core",
   "version": "1.0.1-alpha.0",
   "description": "Loki native target core lib",
   "keywords": [
@@ -20,7 +20,7 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@loki/core": "^1.0.1-alpha.0",
+    "@lokiwilaufork/core": "^1.0.1-alpha.0",
     "debug": "^4.1.1",
     "ws": "^7.2.0"
   },

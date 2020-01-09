@@ -29,10 +29,10 @@
     "*.js"
   ],
   "dependencies": {
-    "@loki/target-chrome-app": "^1.0.1-alpha.0",
-    "@loki/target-chrome-docker": "^1.0.1-alpha.0",
-    "@loki/target-native-android-emulator": "^1.0.1-alpha.0",
-    "@loki/target-native-ios-simulator": "^1.0.1-alpha.0"
+    "@lokiwilaufork/target-chrome-app": "^1.0.1-alpha.0",
+    "@lokiwilaufork/target-chrome-docker": "^1.0.1-alpha.0",
+    "@lokiwilaufork/target-native-android-emulator": "^1.0.1-alpha.0",
+    "@lokiwilaufork/target-native-ios-simulator": "^1.0.1-alpha.0"
   },
   "publishConfig": {
     "access": "public"

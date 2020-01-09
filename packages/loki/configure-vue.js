@@ -1,1 +1,1 @@
-require('@loki/integration-vue')();
+require('@lokiwilaufork/integration-vue')();

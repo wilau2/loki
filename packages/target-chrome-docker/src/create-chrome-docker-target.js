@@ -4,8 +4,8 @@ const execa = require('execa');
 const waitOn = require('wait-on');
 const CDP = require('chrome-remote-interface');
 const getRandomPort = require('get-port');
-const { ChromeError, ensureDependencyAvailable } = require('@loki/core');
-const { createChromeTarget } = require('@loki/target-chrome-core');
+const { ChromeError, ensureDependencyAvailable } = require('@lokiwilaufork/core');
+const { createChromeTarget } = require('@lokiwilaufork/target-chrome-core');
 const { getLocalIPAddress } = require('./get-local-ip-address');
 const { getNetworkHost } = require('./get-network-host');
 

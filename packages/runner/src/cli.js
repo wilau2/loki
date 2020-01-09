@@ -7,7 +7,7 @@ const {
   ChromeError,
   FetchingURLsError,
   unwrapError,
-} = require('@loki/core');
+} = require('@lokiwilaufork/core');
 const { die, bold } = require('./console');
 const { version } = require('../package.json');
 

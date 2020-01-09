@@ -1,1 +1,1 @@
-require('@loki/integration-react-native')();
+require('@lokiwilaufork/integration-react-native')();

@@ -1,5 +1,5 @@
 const osnap = require('osnap/src/android');
-const { createWebsocketTarget } = require('@loki/target-native-core');
+const { createWebsocketTarget } = require('@lokiwilaufork/target-native-core');
 
 const saveScreenshotToFile = filename => osnap.saveToFile({ filename });
 

@@ -1,4 +1,4 @@
 const storybook = require('@storybook/react');
-const { createStorybookConfigurator } = require('@loki/browser');
+const { createStorybookConfigurator } = require('@lokiwilaufork/browser');
 
 module.exports = createStorybookConfigurator(storybook);

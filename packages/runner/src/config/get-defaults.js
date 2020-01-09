@@ -1,6 +1,6 @@
 /* eslint-disable global-require, import/no-dynamic-require */
 const map = require('ramda/src/map');
-const { dependencyAvailable } = require('@loki/core');
+const { dependencyAvailable } = require('@lokiwilaufork/core');
 const { isReactNativeProject } = require('./project-package');
 
 const mapChromeAppToDocker = map(config =>

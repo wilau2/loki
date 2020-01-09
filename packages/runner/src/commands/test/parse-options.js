@@ -1,7 +1,7 @@
 const path = require('path');
 const minimist = require('minimist');
 const ciInfo = require('ci-info');
-const { dependencyAvailable } = require('@loki/core');
+const { dependencyAvailable } = require('@lokiwilaufork/core');
 const defaults = require('./default-options');
 const getAbsoluteURL = require('./get-absolute-url');
 

@@ -6,14 +6,14 @@ const groupBy = require('ramda/src/groupBy');
 const toPairs = require('ramda/src/toPairs');
 const fromPairs = require('ramda/src/fromPairs');
 const mapObjIndexed = require('ramda/src/mapObjIndexed');
-const { createChromeAppTarget } = require('@loki/target-chrome-app');
-const { createChromeDockerTarget } = require('@loki/target-chrome-docker');
+const { createChromeAppTarget } = require('@lokiwilaufork/target-chrome-app');
+const { createChromeDockerTarget } = require('@lokiwilaufork/target-chrome-docker');
 const {
   createIOSSimulatorTarget,
-} = require('@loki/target-native-ios-simulator');
+} = require('@lokiwilaufork/target-native-ios-simulator');
 const {
   createAndroidEmulatorTarget,
-} = require('@loki/target-native-android-emulator');
+} = require('@lokiwilaufork/target-native-android-emulator');
 const { die } = require('../../console');
 const testStory = require('./test-story');
 const { TaskRunner } = require('./task-runner');

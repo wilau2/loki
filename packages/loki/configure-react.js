@@ -1,1 +1,1 @@
-require('@loki/integration-react')();
+require('@lokiwilaufork/integration-react')();

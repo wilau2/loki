@@ -1,7 +1,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const { slugify } = require('transliteration');
-const { ReferenceImageError } = require('@loki/core');
+const { ReferenceImageError } = require('@lokiwilaufork/core');
 const { getImageDiffer } = require('./get-image-differ');
 
 const SLUGIFY_OPTIONS = {

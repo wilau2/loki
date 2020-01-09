@@ -1,7 +1,7 @@
 const debug = require('debug')('loki:chrome:app');
 const chromeLauncher = require('chrome-launcher');
 const CDP = require('chrome-remote-interface');
-const { createChromeTarget } = require('@loki/target-chrome-core');
+const { createChromeTarget } = require('@lokiwilaufork/target-chrome-core');
 
 function createChromeAppTarget({
   baseUrl = 'http://localhost:6006',

@@ -1,7 +1,7 @@
 const fs = require('fs-extra');
 const osnap = require('osnap/src/ios');
-const { withRetries } = require('@loki/core');
-const { createWebsocketTarget } = require('@loki/target-native-core');
+const { withRetries } = require('@lokiwilaufork/core');
+const { createWebsocketTarget } = require('@lokiwilaufork/target-native-core');
 
 const saveScreenshotToFile = withRetries(3)(async filename => {
   await osnap.saveToFile({ filename });

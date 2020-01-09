@@ -1,5 +1,5 @@
-const { createGraphicsMagickDiffer } = require('@loki/diff-graphics-magick');
-const { createLooksSameDiffer } = require('@loki/diff-looks-same');
+const { createGraphicsMagickDiffer } = require('@lokiwilaufork/diff-graphics-magick');
+const { createLooksSameDiffer } = require('@lokiwilaufork/diff-looks-same');
 
 function getImageDiffer(engine, config) {
   switch (engine) {

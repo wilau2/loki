@@ -1,4 +1,4 @@
-const { NativeError } = require('@loki/core');
+const { NativeError } = require('@lokiwilaufork/core');
 
 const createMessageQueue = nativeErrorType => {
   const queue = [];
