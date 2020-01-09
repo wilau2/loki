@@ -1,6 +1,6 @@
 {
   "name": "@loki/diff-graphics-magick",
-  "version": "0.18.1",
+  "version": "1.0.0-alpha.0",
   "description": "Loki graphics magick image differ",
   "keywords": [
     "loki"
